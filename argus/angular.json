@@ -26,7 +26,12 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+"./node_modules/popper.js/dist/umd/popper.min.js",
+"./node_modules/bootstrap/dist/js/bootstrap.min.js",
+"./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "argus"
+    }
+  },
+  "defaultProject": "argus",
+  "cli": {
+    "analytics": "6f8d955f-2810-451a-b141-80d2ee788995"
+  }
 }

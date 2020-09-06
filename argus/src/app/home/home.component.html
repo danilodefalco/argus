@@ -5,36 +5,38 @@
 <main class="">
     
    
-    <section id="home" class="mt-5 row justify-content-center container-fluid">
+    <section id="home" class="mt-5 row justify-content-center container-fluid" [@bounce]="bounce">
       <div class="col-md-4 img-home"><br>
         <img src="../../../assets/quemsomos.svg" class="image-slider"
           alt="Quem Somos">
       </div>
-      <div class="col-md-4 text-section">
-        <h1>Quem Somos</h1>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br>
-            Feugiat vivamus at augue eget arcu dictum. Condimentum lacinia quis vel eros donec. Tristique risus nec feugiat in fermentum. 
-            Porttitor rhoncus dolor purus non enim praesent elementum. Ut eu sem integer vitae justo eget magna. Ut sem nulla pharetra diam sit amet nisl. 
-            Nec feugiat nisl pretium fusce id velit ut tortor. Quis eleifend quam adipiscing vitae proin sagittis. Proin fermentum leo vel orci porta non pulvinar neque laoreet.<br><br> 
-            Cras adipiscing enim eu turpis egestas pretium. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Enim praesent elementum facilisis leo vel. 
-            Tellus orci ac auctor augue mauris. </p>
-       
+      <div class="col-md-4 text-section" >
+        <h1>Quem Somos</h1><br>
+        <p>  O Argus chegou para simplificar sua operação - ele é robusto, fácil de operar, escalável e muito estável. </p><br>
+        <h2 class="text-center text-danger">Atendimento ao Cliente Garantido com o Argus</h2>  <br>
+         <h1>Eficiência e produtividade</h1>
+          <h3 class="text-right text-danger">para sua operação,</h3>
+          <h2>simples na gestão e</h2> 
+          <h1 class="text-center text-danger"> robusto na performance. </h1>
+           
       </div>
     </section><br><br>
-    <section class="hero" id="argus"><br>
-       
+    <section class="hero" id="argus" [@bounce]="bounce"><br>
         <app-argus></app-argus>
       </section>
 
-    <section id="diferenciais" class="mt-5 row justify-content-center container-fluid">
+    <section id="diferenciais" class="mt-5 row justify-content-center container-fluid" [@bounce]="bounce">
         <div class="col-md-4 text-section">
-            <h1>Diferenciais</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-
-                Feugiat vivamus at augue eget arcu dictum. Condimentum lacinia quis vel eros donec. Tristique risus nec feugiat in fermentum. Porttitor rhoncus dolor purus non enim praesent elementum. <br><br>Ut eu sem integer vitae justo eget magna. Ut sem nulla pharetra diam sit amet nisl. Nec feugiat nisl pretium fusce id velit ut tortor. Quis eleifend quam adipiscing vitae proin sagittis. Proin fermentum leo vel orci porta non pulvinar neque laoreet.
-                
-             </p>
-           
+            <h1>Diferenciais</h1><br>
+            <ul>
+              <li><h6>Sem contrato de permanência </h6></li>
+              <li><h6>Intuitivo, fácil de operar</h6></li>
+              <li><h6>Não existe perda de gravação</h6></li>
+              <li><h6>Desenvolvido por quem usa o sistema</h6></li>
+              <li><h6>Tecnologia Própria</h6></li>
+              <li><h6>Discagens eficientes</h6></li>
+         
+            </ul><br>
           </div>
         <div class="col-md-4 img-home">
          &nbsp;&nbsp;&nbsp; <img src="../../../assets/diferenciais.svg" class="image-slider"
@@ -43,7 +45,7 @@
         
       </section>
       <nav class="navbar navbar-light startnav shadow-lg p-3 mb-5 rounded">
-      <section id="contato" class=" row justify-content-center container-fluid">
+      <section id="contato" class=" row justify-content-center container-fluid" [@bounce]="bounce">
         <div class="col-md-4 img-home">
           <img src="../../../assets/contato.svg" class="image-slider"
             alt="Contato">
@@ -56,7 +58,7 @@
                   
             Email: contato@argus4com.com.br  </p>
            
-            <form class="forms col-md-12 col-ls-12" action="" method="" class="mt-4">
+            <form class="forms col-md-12 col-ls-12"   class="mt-4">
                 <div class="form-group">
                   <input type="name" class="col-md-8 col-lg-12 form-control" id="exampleFormControlInput1" placeholder="Nome Completo">
                 </div>
@@ -79,6 +81,6 @@
 
   </main>
    
-        <footer class="container-fluid text-center" id="footer">Copyright 2020. Argus 4Com - Todos os direitos reservados.
+        <footer class="container-fluid text-center" id="footer">Copyright 2020. Argus4Com - Todos os direitos reservados.
             <p>&nbsp;</p>
         </footer>

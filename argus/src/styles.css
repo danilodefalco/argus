@@ -3,6 +3,9 @@
 .hero-color {
     background-color: #ffffff;
 }
+.bg-cor{
+    background-color: #cccccc;
+}
 .center {
     display: flex;
     justify-content: center;
@@ -19,16 +22,12 @@
 }
 
 .image-hero {
-    height: 73vh;
+    height: 72vh;
     width: 100%;
 }
 
 .image-slider {
-    height: 31vh;
-}
-.imagens-carrousel {
-    width: 50%;
-    height: 60%;
+    height: 28vh;
 }
 
 .img-home {

@@ -10,6 +10,7 @@ export class ArgusComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-  }
 
+
+  }
 }
